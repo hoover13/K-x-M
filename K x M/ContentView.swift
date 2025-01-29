@@ -14,7 +14,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             Button {
-                
+                print("Hello world")
             } label: {
                 Image(systemName: "person.crop.circle")
                     .foregroundStyle(.white)
